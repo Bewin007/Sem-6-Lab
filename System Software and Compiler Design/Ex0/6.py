@@ -1,5 +1,5 @@
 n = "Bewin"
 b ="ae"
-a = n[3::1]
-print(n)
+a = n[:-2]+ b
+print(a)
 

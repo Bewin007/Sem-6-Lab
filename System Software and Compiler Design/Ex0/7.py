@@ -1,4 +1,4 @@
-n = "Bewin dwa"
+n = "Bewin"
 print(n[::-1])
 
 
