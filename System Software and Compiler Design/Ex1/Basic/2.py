@@ -5,18 +5,21 @@ Keywords = ['if','while','do']
 Identifiers = ['num','a','b','c']
 Operators = ['+','-','/','*','>','<','=']
 Punctuation = [':',';',',',"'",'''"''','.']
-count =0
+Keywords_count =0
+Identifiers_count = 0
 for i in t:
     if i in Keywords:
         print('<keyword ,', i,'>')
-        count+=1
+        Keywords_count+=1
     # if i in Keywords:
     #     print('<keyword ,', i,'>')
     elif i in Identifiers:
         print('<Identifiers ,', i,'>')
+        Identifiers_count +=1
     elif i in Operators:
         print('<Operators ,', i,'>')
     elif i in Punctuation:
         print('<Punctuation ,', i,'>')
 
-print('Total Keywords: ',count)
+print('Total Keywords: ',Keywords_count)
+print('Total Identifiers: ',Identifiers_count)

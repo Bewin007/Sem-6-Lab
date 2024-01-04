@@ -17,3 +17,4 @@ for i in t:
         print('<Operators ,', i,'>')
     elif i in Punctuation:
         print('<Punctuation ,', i,'>')
+
