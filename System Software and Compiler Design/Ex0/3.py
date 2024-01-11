@@ -11,7 +11,7 @@ conv = {
     "0":"zero"
 }
 num = [1,2,3,4,5,6,7,8,9,0]
-test_str ="Bewin 1 2"
+test_str ="1 2"
 
 
 for ele in test_str:

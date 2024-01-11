@@ -1,4 +1,4 @@
-n = "Bewin Felix a"
+n = "Bewin Felix a b"
 lst = n.split(' ')
 count = 0
 
