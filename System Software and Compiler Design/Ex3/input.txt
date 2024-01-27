@@ -1,0 +1,10 @@
+#define ABC(X, Y) ( X=Y/2)
+#define pi 3.14
+#include<iostream.h>
+void main()
+{
+int a, b = 10;
+float c;
+ABC(a, b);
+c = pi * a *a;
+}
